@@ -206,6 +206,7 @@
   .add-ad .info-check .span3{ 
     width: auto !important;
     *width: auto !important;
+
   }
 }
 @media (max-width: 650px) {
@@ -1210,6 +1211,7 @@ add ad form
   margin: 6px 0 !important;
 }
 /* check box information  */
+.add-ad .info-check{float: left;}
 .add-ad .info-check .first{margin-left: 20px}
 .add-ad .info-check .control-label{font-size: 12px;font-weight: normal;width: 135px}
 .add-ad .info-check .span3{width: 175px;}
@@ -1262,6 +1264,57 @@ add ad form
   width: 63px;
 }
 .ad-details .small-photo .thumbnail{padding: 0px;}
+.ad-details .det-block-title{margin-top: -15px}
+.ad-details .det-title{
+  padding: 4px 5px 0; 
+}
+.det-info{
+  padding-left: 10px;
+  margin-top: 20px
+}
+.det-block{margin-top: 30px}
+.det-block .span3{width:17.077% !important }
+.det-block .span7{width:51.265% !important }
+.det-block .span2{width:26.53% !important }
+.det-block .contact-action{
+  margin-top: 60px;
+}
+.ad-details .contact-action p{
+  min-width: 30px;
+  margin-right: 10px
+}
+.ad-details .det-info .email{
+  padding-left: 30px;
+  background: url('../img/user-email.png') no-repeat;
+}
+.ad-details .det-info .mob{
+  padding-left: 30px;
+  background: url('../img/user-mob.png') no-repeat;
+}
+.ad-details .det-info .fav{
+  padding-left: 30px;
+  background: url('../img/user-add-fav.png') no-repeat;
+}
+.ad-details .det-info .spam{
+  padding-left: 30px;
+  background: url('../img/user-spam.png') no-repeat;
+}
+.ad-details .contact-tel{
+  background: url('../img/tel-photo.png') no-repeat;
+  padding-left: 80px;
+}
+.contact-tel p{margin-top :1px;margin-bottom: 0px}
+
+.det-block  .decoration{
+  background: url('../img/block-dec.png') no-repeat;
+}
+.det-block  .decoration .det-block-title{
+  margin-top: 0px
+}
+.det-info-check .checked{
+  padding-left: 10px;
+}
+.det-info-check .first{margin-left: 25px !important}
 /************************ 
 /add ad form  
 ************************/

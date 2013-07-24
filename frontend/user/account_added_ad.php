@@ -112,10 +112,294 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row det-block">
 			<div class="span12 gray-border">
-				<div class="row-fluid block-head-gray more-photo">
-					<div class="span7 block-title-5">Diğer Resimler İçin</div>
+				<div class="row">
+					<div class="span4"></div>
+					<div class="span4 det-block-title block-head-gray center">
+						<div class="det-title bold">Diğer Resimler İçin</div>
+					</div>
+					<div class="span4"></div>
+				</div>
+				<div class="row det-info">
+					<div class="span3">
+						<p class='bold'>Hasan Uzun</p>
+						<p>Üyelik tarihi : 01.01.2013</p>
+						<p>Tüm ilanlari | Taip et</p>
+					</div>
+					<div class="span7">
+						<div class= "contact-action">
+							<p class='email pull-left'>Mesaj Gönder</p>
+							<p class='mob pull-left'>SMS Gönder</p>
+							<p class='fav pull-left'>Favorilerime ekle</p>
+							<p class='spam pull-left'>Şikayet et</p>
+						</div>
+					</div>
+					<div class="span2">
+						<div class= "contact-tel">
+							<p>Tel : 0212 000 0000</p>
+							<p>Tel : 0212 000 0000</p>
+							<p>cep : 0212 000 0000</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row det-block ">
+			<div class="span12 decoration">
+				<div class="row">
+					<div class="span4"></div>
+					<div class="span4 det-block-title block-head-gray center">
+						<div class="det-title bold uppercase">Açıklama</div>
+					</div>
+					<div class="span4"></div>
+				</div>
+				<div class="row det-info">
+					<div class="span12 center bold">
+						Sahibindin Çok temiz garaj arabasıdır
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row det-block">
+			<div class="span12 decoration">
+				<div class="row">
+					<div class="span4"></div>
+					<div class="span4 det-block-title block-head-gray center">
+						<div class="det-title bold uppercase">Güvenlik</div>
+					</div>
+					<div class="span4"></div>
+				</div>
+				<div class="row">
+					<div class="span12 det-info-check">
+						<div class="span3 first">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+						<div class="span3">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+						<div class="span3">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+						<div class="span3">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+						<div class="span3">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row det-block">
+			<div class="span12 decoration">
+				<div class="row">
+					<div class="span4"></div>
+					<div class="span4 det-block-title block-head-gray center">
+						<div class="det-title bold uppercase">İÇ DOMANIM</div>
+					</div>
+					<div class="span4"></div>
+				</div>
+				<div class="row">
+					<div class="span12 det-info-check">
+						<div class="span3 first">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+						<div class="span3">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+						<div class="span3">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+						<div class="span3">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+						<div class="span3">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row det-block">
+			<div class="span12 decoration">
+				<div class="row">
+					<div class="span4"></div>
+					<div class="span4 det-block-title block-head-gray center">
+						<div class="det-title bold uppercase">DİŞ DOMANIM</div>
+					</div>
+					<div class="span4"></div>
+				</div>
+				<div class="row">
+					<div class="span12 det-info-check">
+						<div class="span3 first">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+						<div class="span3">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+						<div class="span3">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+						<div class="span3">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+						<div class="span3">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row det-block">
+			<div class="span12 decoration">
+				<div class="row">
+					<div class="span4"></div>
+					<div class="span4 det-block-title block-head-gray center">
+						<div class="det-title bold uppercase">Multimedya</div>
+					</div>
+					<div class="span4"></div>
+				</div>
+				<div class="row">
+					<div class="span12 det-info-check">
+						<div class="span3 first">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+						<div class="span3">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+						<div class="span3">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+						<div class="span3">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+						<div class="span3">
+							<p><i class="checked  icon-ok"></i>ABS</p>
+							<p><i class="checked  icon-remove"></i>BAS</p>
+							<p><i class="checked  icon-remove"></i>EBD</p>
+							<p><i class="checked  icon-remove"></i>Hava Yastığı (Diz)</p>
+							<p><i class="checked  icon-remove"></i>Lastik Arıza Göstergesi</p>
+							<p><i class="checked  icon-ok"></i>Yokuş Kalkış Desteği</p>
+							<p><i class="checked  icon-remove"></i>ABS</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
