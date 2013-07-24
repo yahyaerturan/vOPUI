@@ -1,5 +1,5 @@
-<?php include('../components/page_head.php') ?>
-<?php include('../components/account_navigation.php') ?>
+<?php include('../components/page_head.php'); ?>
+<?php include('../components/account_navigation.php'); ?>
 <div class="row">
   <div class="span6">
     <div class="contract">
