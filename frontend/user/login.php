@@ -1,12 +1,12 @@
-<?php include('../components/page_head.php') ?>
+<?php include('../components/page_head.php'); ?>
 <!-- Center page section -->
 <div class="row c-page">
 	<!-- Login section -->
 	<h4 class="head">Üye Girişi</h4>
 	<div class="span4">
 		<div class="hero-unit login-form">
-			<?php if($_GET['page']=='login'){ include('login_block.php');}?>
-			<?php if($_GET['page']=='forget'){ include('forget_block.php'); }?>
+			<?php if($_GET['page']=='login')	{ include('login_block.php'); }?>
+			<?php if($_GET['page']=='forget')	{ include('forget_block.php'); }?>
 		</div>
 	</div>
 	<div class="span4 column2 ">

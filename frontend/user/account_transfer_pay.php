@@ -1,6 +1,6 @@
-<?php include('../components/page_head.php') ?>
-<?php $nav_title = "Relkam havale ödemesi" ?>
-<?php include('../components/account_chechout_nav.php') ?>
+<?php include('../components/page_head.php'); ?>
+<?php $nav_title = "Relkam havale ödemesi"; ?>
+<?php include('../components/account_chechout_nav.php'); ?>
 <div class="row-fluid chechout">
   <div class="row"><div class="span3 block-head"><h4>Seçtiğiniz Reklam Paletleri</h4></div></div>
   <div class="row">
