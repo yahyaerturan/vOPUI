@@ -1311,6 +1311,7 @@ add ad form
 .det-block  .decoration .det-block-title{
   margin-top: 0px
 }
+.det-info-check{margin-top: 10px}
 .det-info-check .checked{
   padding-left: 10px;
 }
