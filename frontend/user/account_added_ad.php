@@ -82,9 +82,9 @@
 		</div>
 		<div class="row-fluid">
 			<div class="span12">
-				<div class="row-fluid">
-					<div class="span8">
-					  <div class="row small-photo">
+				<div class="row-fluid carousel" id="testimonials">
+					<div class="span8 slide carousel-inner">
+					  <div class="row small-photo item active">
 					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=one"/></a></div>
 					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=one"/></a></div>
 					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=one"/></a></div>
@@ -96,16 +96,47 @@
 					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=one"/></a></div>
 					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=one"/></a></div>
 					  </div>
+					  <div class="row small-photo item">
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  </div>
+					  <div class="row small-photo item">
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  </div>
 					</div>
 					<!-- More photo slider  -->
 					<div class="span4">
-						<div class="row-fluid block-head-gray more-photo">
+						<div class="row-fluid block-head-gray more-photo " >
 							<div class="span7 block-title-5">Diğer Resimler İçin</div>
 							<div class="span5 block-title-5 pull-right">
-								<a href=""><img src="<?=$base_url;?>assets/frontend/img/slider-more-l.png"></a>
-								<a href=""><img src="<?=$base_url;?>assets/frontend/img/page-ind-active.png"></a>
-								<a href=""><img src="<?=$base_url;?>assets/frontend/img/page-ind.png"></a>
-								<a href=""><img src="<?=$base_url;?>assets/frontend/img/slider-more-r-end.png"></a>
+
+								<ol class="carousel-indicators first">
+									<li data-target="#testimonials" data-slide-to="0" class='active'></li>
+								</ol>
+								<ol class="carousel-indicators ind">
+									<li data-target="#testimonials" data-slide-to="0" class='active' ></li>
+									<li data-target="#testimonials" data-slide-to="1"></li>
+								</ol>
+								<ol class="carousel-indicators last">
+									<li data-target="#testimonials" data-slide-to="1" id='last'></li>
+								</ol>
 							</div>
 						</div>
 					</div>

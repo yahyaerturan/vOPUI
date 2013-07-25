@@ -34,6 +34,7 @@
 <a href="<?=$base_url;?>frontend/user/account_fav_ad.php">Account Fav Ad. </a><br/>
 <a href="<?=$base_url;?>frontend/user/account_add_ad.php">Account add new  Ad.</a><br/>
 <a href="<?=$base_url;?>frontend/user/account_added_ad.php">Account added Ad.</a><br/>
+<a href="<?=$base_url;?>frontend/user/account_select_ad_package.php">Account Select Ad Package</a><br/>
 
 <a href="<?=$base_url;?>frontend/user/account_ad_checkout.php">Account finish add Ad. </a><br/>
 <br/>

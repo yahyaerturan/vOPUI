@@ -1210,6 +1210,9 @@ add ad form
     font-size: 16px !important;
   margin: 6px 0 !important;
 }
+.add-ad .block-head .black{
+  color: #000;
+}
 /* check box information  */
 .add-ad .info-check{float: left;}
 .add-ad .info-check .first{margin-left: 20px}
@@ -1270,7 +1273,7 @@ add ad form
 }
 .det-info{
   padding-left: 10px;
-  margin-top: 20px
+  margin-top: 10px
 }
 .det-block{margin-top: 30px}
 .det-block .span3{width:17.077% !important }
@@ -1286,18 +1289,22 @@ add ad form
 .ad-details .det-info .email{
   padding-left: 30px;
   background: url('../img/user-email.png') no-repeat;
+  height: 23px
 }
 .ad-details .det-info .mob{
   padding-left: 30px;
   background: url('../img/user-mob.png') no-repeat;
+  height: 23px
 }
 .ad-details .det-info .fav{
   padding-left: 30px;
   background: url('../img/user-add-fav.png') no-repeat;
+  height: 23px
 }
 .ad-details .det-info .spam{
   padding-left: 30px;
   background: url('../img/user-spam.png') no-repeat;
+  height: 23px
 }
 .ad-details .contact-tel{
   background: url('../img/tel-photo.png') no-repeat;
@@ -1316,6 +1323,67 @@ add ad form
   padding-left: 10px;
 }
 .det-info-check .first{margin-left: 25px !important}
+
+/* Photo Carousel */
+.more-photo .carousel-indicators { margin: 0 28px 0 0;height: 30px !important}
+.more-photo .ind li{
+  background: url('../img/page-ind.png') no-repeat ;
+  height: 30px !important;
+}
+.more-photo .ind .active{
+  background: url('../img/page-ind-active.png') no-repeat;
+  height: 30px !important
+}
+
+.more-photo .first{margin-right: 55px}
+.more-photo .first li{
+  background: url('../img/slider-more-l.png') no-repeat !important;
+  width: 30px;
+  height: 30px !important
+}
+.more-photo .first .active{
+  background: url('../img/slider-more-l-end.png') no-repeat !important;
+  height: 30px !important;
+  width: 30px;
+}
+
+.more-photo .last{margin-right: -6px}
+.more-photo .last li{
+  background: url('../img/slider-more-r.png') no-repeat !important;
+  width: 30px;
+  height: 30px !important;
+}
+.more-photo .last .active{
+  background: url('../img/slider-more-r-end.png') no-repeat !important;
+  height: 30px !important;
+  width: 30px;
+}
+.more-photo .carousel-indicators{top:4px;}
+/* ! Photo Carousel */
+
+
+/* Select Ad package Page */
+.add-ad .table-search{margin-top: 10px}
+.add-ad .table-search .checkbox{margin-top: 0px}
+.add-ad .table-search th,.add-ad .table-search td{
+  text-align: left
+}
+.add-ad .table-search td p {
+  color: #e07002;
+  font-size: 12px;
+}
+.add-ad .table-search td p span{
+  font-size: 16px
+}
+.add-ad .chechout .total-txt{
+  font-size: 14px !important;
+}
+.add-ad .table-account .table-th{
+  background: linear-gradient(to bottom, #F7F7F7 0%, #CCCCCC 100%) repeat scroll 0 0 transparent!important
+}
+.add-ad .chechout span.extra{
+  font-size: 19px !important
+}
 /************************ 
-/add ad form  
+! add ad form  
 ************************/
