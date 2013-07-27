@@ -4,6 +4,7 @@
     $base_url = 'http://localhost/vOPUI/';
   } else {
     $base_url = 'http://www.vopui.dev/';
+  }
 ?>
 
 <a href="<?=$base_url;?>frontend/user/co_register.php">Company Register</a> <br/>
