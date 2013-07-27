@@ -53,7 +53,23 @@
 		$('.carousel').carousel({
         pause: true,
         interval: false
-    })
+    });
+    /*
+		$('#first-ind').click( function() {
+		    var item = $('#first-ind .carousel-inner .item.active');
+		  	var index = item.index() + 1;
+		    $('.carousel li(' + index + ')').addClass('active');
+		});
+		
+     $("#first-ind").click(function () {
+				$('#first').addClass('active');
+				$('#last').removeClass('active');
+			});
+     $("#last-ind").click(function () {
+				$('#last').addClass('active');
+				$('#first').removeClass('active');
+			});
+			*/
 	});
 </script>
 </body>

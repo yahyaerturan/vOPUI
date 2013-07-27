@@ -241,7 +241,19 @@
     position:relative;
     top:1px;
 }
-
+/*  Blocks head style "blue one" */
+.block-head{
+  background: #b2e7eb;
+  padding: 5px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.block-head h4{
+  margin: 0px;
+  font-size: 16px;
+}
+/* !Blocks head style */
 
 .submit-btn .btn-yal{
   -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -1143,19 +1155,7 @@ Chechout Pages
   padding: 5px 10px
 } 
 
-/*  chechout change blocks head style "blue one" */
-.chechout .block-head{
-  background: #b2e7eb;
-  padding: 5px;
-  padding-left: 10px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-}
-.chechout .block-head h4{
-  margin: 0px;
-  font-size: 16px;
-}
-/*  End change blocks head style */
+
 
 /*  Full width block  */
 .full-width .span12 .with-hr{
@@ -1366,7 +1366,10 @@ add ad form
 .more-photo .first li{
   background: url('../img/slider-more-l.png') no-repeat !important;
   width: 30px;
-  height: 30px !important
+  height: 30px !important;
+  list-style: none;
+  float: left;
+  margin-top: 4px;
 }
 .more-photo .first .active{
   background: url('../img/slider-more-l-end.png') no-repeat !important;
@@ -1379,6 +1382,9 @@ add ad form
   background: url('../img/slider-more-r.png') no-repeat !important;
   width: 30px;
   height: 30px !important;
+  list-style: none;
+  float: right;
+  margin-top: 4px;
 }
 .more-photo .last .active{
   background: url('../img/slider-more-r-end.png') no-repeat !important;
@@ -1448,5 +1454,69 @@ add ad form
 /************************ 
  ! Checkout Form 
 ************************/
+.home .blue-border{padding: 10px 0 0;}
+.cat-list{
+  height: 221px;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+.home .cat-list li{
+  list-style: url("../img/li-ind.png");
+}
+.home .cat-list a{color: #2b2c88;font-weight: bold;}
+.home .row-fluid{margin-top: 20px}
+.home .head-section [class*="span"]{ margin-left: 1% ;}
+.home .head-section [class*="span"]:first-child{margin-left: 0px}
+.home .span12{margin-bottom: 13px;}
+.home .row-fluid .span2{width: 17.53%}
+.home .head-section img{ max-width: auto !important;}
+
+.home .thumbnail{
+  padding: 0px;
+  border: none;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 12px;
+  padding-bottom: 2px;
+}
+.home .thumbnail p {
+  padding-left: 10px!important;
+}
+.home .thumb .span2{
+  width: 12.53%
+}
+.home .thumb [class*="span"]{margin-left: 2% !important;}
+.home .thumb [class*="span"]:first-child{margin-left: 0px !important}
+.ad-space{background: #b2e7eb;height: 200px !important}
+
+.page-breadcrumb .tree .divider{
+  background: url('../img/tree-divider.png') no-repeat;
+  background-color: #fff;
+  width: 13px;
+  height: 19px;
+}
+.page-breadcrumb .tree {
+  background: #fff !important;
+  height: 19px;
+  color: #000;
+  border-radius: 0px;
+  margin-top:10px; 
+}
+.page-breadcrumb .tree li{
+  color: #000;
+  text-shadow:none;
+  background: #d6d6d6 !important;
+  padding: 0px 15px
+}
+.page-breadcrumb .tree a{
+  color: #000;
+}
+/************************ 
+ Home page style
+************************/
+
+
 
 

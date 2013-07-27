@@ -6,6 +6,11 @@
     $base_url = 'http://www.vopui.dev/';
   }
 ?>
+<a href="<?=$base_url;?>frontend/home.php">Home page</a> <br/>
+
+<a href="<?=$base_url;?>frontend/ad_show.php">ad show</a> <br/>
+<a href="<?=$base_url;?>frontend/ad_show_two.php">ad show 2</a> <br/>
+<hr>
 
 <a href="<?=$base_url;?>frontend/user/co_register.php">Company Register</a> <br/>
 <a href="<?=$base_url;?>frontend/user/register.php">Register</a><br/><br/>

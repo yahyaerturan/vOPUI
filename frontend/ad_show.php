@@ -1,23 +1,6 @@
-<?php include('../components/page_head.php') ?>
+<?php include('components/page_head.php') ?>
+<?php include('components/page_navigation.php') ?>
 <div class="container add-ad">			
-	<div class="row"><div class="span12 block-head"><h4>İlan ver</h4></div></div>
-	<div class="row ">
-		<div class="span12">
-			<p class='center'>İlanınzla ilgli aşağıdaki bilgiler doğruysa "Devam Et" butonuna tıklayıp bir sonraki aşamaya geçin. Değilse "Düzel" butonuna tıklayın.</p>
-			<div class="row-fluid">
-				<div class="span6">
-					<div class="submit-btn pull-right">
-        <a href="#" class="devam-btn-blue">Düzelt</a>
-      </div>
-				</div>
-				<div class="span6">
-					<div class="submit-btn pull-let">
-		        <a href="#" class="devam-btn-blue">Devam Et</a>
-		      </div>
-				</div>
-			</div>
-		</div>
-	</div>
 	<div class="row-fluid ad-details">
 		<div class="span8">
 			<div class="row center bold">
@@ -444,4 +427,4 @@
 		</div>
 	</div>
 </div>
-<?php include('../components/page_tail.php') ?>
+<?php include('components/page_tail.php') ?>
