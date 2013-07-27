@@ -54,12 +54,6 @@
         pause: true,
         interval: false
     })
-    $("#myCarousel").swiperight(function() {  
-      $("#myCarousel").carousel('prev');  
-    });  
-   $("#myCarousel").swipeleft(function() {  
-      $("#myCarousel").carousel('next');  
-   }); 
 	});
 </script>
 </body>

@@ -290,6 +290,33 @@
   background: linear-gradient(to bottom, #f7f7f7 0%,#cccccc 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
 }
+
+
+.submit-btn-pay{margin-top: 10px}
+.submit-btn-pay .devam-btn-blue{
+    -moz-box-shadow:inset 0px 35px 0.5px -24px #63acf0;
+    -webkit-box-shadow:inset 0px 35px 0.5px -24px #63acf0;
+    box-shadow:inset 0px 35px 0.5px -24px #63acf0;
+    background-color:#4593e0;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #2e79ca;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:bold;
+    padding:4px 21px;
+    text-decoration:none;
+    
+}
+.submit-btn-pay .devam-btn-blue:hover {
+    
+    background-color:#63acf0;
+}
+.submit-btn-pay .devam-btn-blue:active {
+    position:relative;
+    top:1px;
+}
 /* End default setting*/
 
 
@@ -1387,3 +1414,39 @@ add ad form
 /************************ 
 ! add ad form  
 ************************/
+
+
+/************************ 
+ Checkout Form 
+************************/
+.pay-form .control-group{width: auto;}
+.pay-form .pay-txt{}
+.pay-form .pay-txt h5{
+  font-size: 12px;
+  font-weight: normal;
+  color: #086fb1;
+  padding-left: 110px;
+  margin-bottom: 10px
+}
+.pay-form .pay-txt span{
+  font-size: 18px !important;
+  font-weight: bold !important;
+  color: #089e07 !important;
+  padding-right: 30px
+}
+.pay-form .pay-txt label{
+  font-weight: normal;
+  font-size: 12px
+}
+.pay-form .pay-txt input{
+  height: 15px !important
+} 
+.pay-form .pay-txt p{
+  margin-left: 80px;
+  padding-right: 50px;
+}
+/************************ 
+ ! Checkout Form 
+************************/
+
+

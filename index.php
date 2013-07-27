@@ -1,4 +1,10 @@
-<?php $base_url = 'http://localhost/vOPUI/'; ?>
+<?php 
+  $base_url = '';
+  if($_SERVER['HTTP_HOST'] == 'localhost') {
+    $base_url = 'http://localhost/vOPUI/';
+  } else {
+    $base_url = 'http://www.vopui.dev/';
+?>
 
 <a href="<?=$base_url;?>frontend/user/co_register.php">Company Register</a> <br/>
 <a href="<?=$base_url;?>frontend/user/register.php">Register</a><br/><br/>
@@ -40,6 +46,10 @@
 <br/>
 <a href="<?=$base_url;?>frontend/user/account_ad_pay.php">Account Ad. pay</a><br/>
 <a href="<?=$base_url;?>frontend/user/account_transfer_pay.php">Account transfer pay</a><br/>
+<a href="<?=$base_url;?>frontend/user/account_transfer_checkout.php">Account transfer checkout</a><br/>
+
+<a href="<?=$base_url;?>frontend/user/account_credit_checkout.php">Account credit card checkout</a><br/><br/>
+
 <a href="<?=$base_url;?>frontend/user/account_mobile_pay.php">Account mobile pay</a><br/>
 <a href="<?=$base_url;?>frontend/user/account_change_mobnum.php">Account change mobile number</a><br/>
 

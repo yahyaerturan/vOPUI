@@ -1,4 +1,10 @@
-<?php $base_url = 'http://localhost/vOPUI/'; ?>
+<?php 
+	$base_url = '';
+	if($_SERVER['HTTP_HOST'] == 'localhost') {
+	  $base_url = 'http://localhost/vOPUI/';
+	} else {
+	  $base_url = 'http://www.vopui.dev/';
+?>
 
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
