@@ -16,6 +16,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Oto pazarı</title>
+	<meta name="robots" content="noindex, nofollow">
 	<meta name="description" content="">
 	<meta name="author" content="">
 
