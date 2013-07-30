@@ -2,10 +2,10 @@
   $base_url = '';
   if($_SERVER['HTTP_HOST'] == 'localhost') {
     $base_url = 'http://localhost/vOPUI/';
+  } elseif ($_SERVER['HTTP_HOST'] == 'http://vopui.vayesweb.com') {
+    $base_url = 'http://vopui.vayesweb.com/';
   } else {
-    $base_url  = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
-    $base_url  .= "://".$_SERVER['HTTP_HOST'];
-    $base_url  .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
+    $base_url = 'http://www.vopui.dev/';
   }
 ?>
 
