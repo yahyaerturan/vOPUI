@@ -1,7 +1,7 @@
 <!-- Center page section -->
 <div class="row page-breadcrumb">
 	<!-- account Page -->
-	<div class="span12">
+	<div class="span9">
       <div>
         <ul class="breadcrumb tree pull-left">
           <li><a href="#">Vasıta</a></li>
@@ -13,4 +13,14 @@
       </div>
       <div class="line"></div>
 	</div>
+  <div class="span3">
+    <div class="row action">
+      <div class="span1 print">
+        <a href="">Yazdır</a>  
+      </div>
+      <div class="span1 pdf">
+        <a href="">PDF Yap</a>  
+      </div>
+    </div>
+  </div>
 </div>

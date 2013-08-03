@@ -244,13 +244,13 @@
 /*  Blocks head style "blue one" */
 .block-head{
   background: #b2e7eb;
+}
+.block-head h4{
+  margin: 0px;
   padding: 5px;
   padding-left: 10px;
   padding-bottom: 0px;
   margin-bottom: 0px;
-}
-.block-head h4{
-  margin: 0px;
   font-size: 16px;
 }
 /* !Blocks head style */
@@ -998,6 +998,10 @@ div.contract span{
 {
   background: #e6fbd4;
 }
+.table-ad-active td.gray
+{
+  background: #f2f2f2;
+}
 /* End Active Ad */
 
 /* Account Messges */
@@ -1008,10 +1012,7 @@ div.contract span{
 .account-message .nav li{
   margin-bottom: 10px;
 }
-.account-message .nav > li > a:hover, .nav > li > a:focus{
-  background: #fff;
-  color: #333;
-}
+
 .account-message .nav a{
   color: #000;
 }
@@ -1288,7 +1289,10 @@ add ad form
   padding: 5px;
   margin-bottom: 4px;
 }
-.ad-details .more-photo .block-title-5{padding: 2px 5px 0}
+.ad-details .more-photo .block-title-5{
+  padding: 7px 8px 0;
+  margin-bottom: 5px;
+}
 .ad-details .small-photo .span1{
   margin-left: 2px !important;
   width: 63px;
@@ -1339,60 +1343,78 @@ add ad form
 }
 .contact-tel p{margin-top :1px;margin-bottom: 0px}
 
-.det-block  .decoration{
+
+/* Block Decoration */
+.det-block .decoration{
+  border-top: 2px #999 solid;
+}
+.det-block .decoration .decoration-row{
+  margin-top: -15px;
+}
+
+.det-block .decoration .bit{
   background: url('../img/block-dec.png') no-repeat;
 }
-.det-block  .decoration .det-block-title{
-  margin-top: 0px
+.det-block .decoration .dir-right {
+  background-position: right;
+}
+.det-block .decoration .dir-left {
+  background-position: left;
 }
 .det-info-check{margin-top: 10px}
 .det-info-check .checked{
   padding-left: 10px;
 }
 .det-info-check .first{margin-left: 25px !important}
+/* End Block Decoration */
+
 
 /* Photo Carousel */
-.more-photo .carousel-indicators { margin: 0 28px 0 0;height: 30px !important}
+.more-photo .carousel-indicators { 
+  margin:-1px 4px 0 0;
+  height: 21px !important;
+  top:4px;
+  position: inherit;
+}
 .more-photo .ind li{
   background: url('../img/page-ind.png') no-repeat ;
-  height: 30px !important;
+  height: 21px !important;
 }
 .more-photo .ind .active{
   background: url('../img/page-ind-active.png') no-repeat;
-  height: 30px !important
+  height: 21px !important
 }
 
-.more-photo .first{margin-right: 55px}
 .more-photo .first li{
   background: url('../img/slider-more-l.png') no-repeat !important;
   width: 30px;
-  height: 30px !important;
   list-style: none;
   float: left;
-  margin-top: 4px;
+  margin-top: 0px;
+  height: 21px !important;
+  cursor: pointer;
 }
 .more-photo .first .active{
   background: url('../img/slider-more-l-end.png') no-repeat !important;
-  height: 30px !important;
+  height: 21px !important;
   width: 30px;
 }
 
-.more-photo .last{margin-right: -6px}
 .more-photo .last li{
   background: url('../img/slider-more-r.png') no-repeat !important;
   width: 30px;
-  height: 30px !important;
+  height: 21px !important;
   list-style: none;
   float: right;
-  margin-top: 4px;
+  margin-top: 0px;
+  cursor: pointer;
 }
 .more-photo .last .active{
   background: url('../img/slider-more-r-end.png') no-repeat !important;
-  height: 30px !important;
+  height: 21px !important;
   width: 30px;
 }
-.more-photo .carousel-indicators{top:4px;}
-/* ! Photo Carousel */
+/* End Photo Carousel */
 
 
 /* Select Ad package Page */
@@ -1452,11 +1474,13 @@ add ad form
   padding-right: 50px;
 }
 /************************ 
- ! Checkout Form 
+ End Checkout Form 
 ************************/
+
+/**** Home page style ****/
 .home .blue-border{padding: 10px 0 0;}
 .cat-list{
-  height: 221px;
+  height: 264px;
   overflow-x: hidden;
   overflow-y: visible;
 }
@@ -1489,34 +1513,140 @@ add ad form
 }
 .home .thumb [class*="span"]{margin-left: 2% !important;}
 .home .thumb [class*="span"]:first-child{margin-left: 0px !important}
-.ad-space{background: #b2e7eb;height: 200px !important}
-
-.page-breadcrumb .tree .divider{
-  background: url('../img/tree-divider.png') no-repeat;
-  background-color: #fff;
-  width: 13px;
-  height: 19px;
+.ad-space{
+  background: #b2e7eb;
+  height: 200px !important
 }
+
+/* Home breadcrumb */
 .page-breadcrumb .tree {
   background: #fff !important;
   height: 19px;
   color: #000;
   border-radius: 0px;
   margin-top:10px; 
+  padding: 0px;
 }
 .page-breadcrumb .tree li{
   color: #000;
   text-shadow:none;
-  background: #d6d6d6 !important;
+  background: #cecece !important;
   padding: 0px 15px
 }
 .page-breadcrumb .tree a{
   color: #000;
 }
-/************************ 
- Home page style
-************************/
+.page-breadcrumb .tree .divider{
+  background: url('../img/tree-divider.png') no-repeat !important;
+  width: 13px;
+  height: 19px;
+  padding: 0px !important;
+  margin: 0px -4px !important;
+  height: 20px;
+}
+.page-breadcrumb .tree li.active{
+  padding-right: 24px;
+  background: #cecece url('../img/tree-end.png') no-repeat  100% 0 !important;
+  margin-right: 3px;
+} 
 
+/* Advetısment action */
 
+.page-breadcrumb .line
+{
+  border-top: 5px solid #CECECE !important;
+  top: 100px;
+  margin-top: 18px;
+}
+.page-breadcrumb .action{
+  margin-top: 15px;
+  margin-left: 8px;
+  margin-top: 11px;
+}
+.page-breadcrumb .action a{
+  color: #000;
+}
+.page-breadcrumb .action .print{
+  background: url('../img/printer.png') no-repeat  0 -4px !important;
+  padding-left: 38px;
+}
+.page-breadcrumb .action .pdf{
+  background: url('../img/pdf-ex.png') no-repeat  0 -1px !important;
+  padding-left: 38px;
+}
+/* End breadcrumb */
 
-
+/* Advertisement Table */
+.block-head .boder-right{ border-right:1px #000 solid; }
+.block-head .boder-left{  border-left:1px #000 solid; }
+/* filtering */
+.search-filter{
+  padding-top: 5px;
+  padding-left: 20px;
+}
+.search-filter select{
+  height: 23px;
+  padding-bottom: 2px;
+  padding-left: 4px !important;
+  padding-top: 2px;
+}
+.search-filter input[type="text"]{
+  height: 16px;
+  padding-bottom: 2px;
+  padding-left: 4px !important;
+  padding-top: 2px;
+}
+.search-filter .input-mid{width: 100px !important}
+.search-filter .submit-btn{margin-top: 3px}
+/* Pagination */
+.ad-pagination .pagination ul > li > a, .pagination ul > li > span{
+  border: none;
+}
+.ad-pagination .pagination ul{
+  box-shadow:none;
+}
+.ad-pagination .pagination ul > li:first-child > a,.ad-pagination .pagination ul > li:first-child > span
+{
+  border-radius: 0px;
+}
+.ad-pagination .pagination ul > li > a:hover,.ad-pagination .pagination ul > li > a:focus,.ad-pagination .pagination ul > .active > a,.ad-pagination .pagination ul > .active > span
+{
+  background-color:#fff;
+}
+.ad-pagination .pagination a{
+  color: #000;
+}
+.ad-pagination .pagination a:hover{
+  color: #999999;
+}
+.save-search
+{
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #e6eaed 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e6eaed)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 0%,#e6eaed 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffffff 0%,#e6eaed 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ffffff 0%,#e6eaed 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #ffffff 0%,#e6eaed 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6eaed',GradientType=0 ); /* IE6-9 */
+  border: 1px #DDD solid;
+  padding: 0px 20px;
+  float: left;
+  height: 130px;
+}
+.save-search h4
+{
+  background: url('../img/search-icon.png') no-repeat  0 0 !important;
+  height: 27px;
+  padding-left: 44px;
+  padding-top: 14px;
+  color: #0f3973;
+  margin-bottom: 0px
+}
+.save-search p
+{
+  font-size: 11.5px;
+  color: #666;
+  margin-bottom: -10px;
+}
+/* End Advertisement Table */

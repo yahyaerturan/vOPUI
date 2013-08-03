@@ -1,5 +1,5 @@
 <?php include('components/page_head.php') ?>
-<?php include('components/page_navigation.php') ?>
+<?php include('components/page_navigation_action.php') ?>
 <div class="container add-ad">			
 	<div class="row-fluid ad-details">
 		<div class="span8">
@@ -63,6 +63,7 @@
 				<div class="span7 gray-border ">01 kasim 2013</div>
 			</div>
 		</div>
+		<!-- Photo Carousel  -->
 		<div class="row-fluid">
 			<div class="span12">
 				<div class="row-fluid carousel" id="testimonials">
@@ -92,48 +93,37 @@
 					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
 					  </div>
 					  <div class="row small-photo item">
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  </div>
-					  <div class="row small-photo item">
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
-					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=two"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=tree"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=tree"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=tree"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=tree"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=tree"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=tree"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=tree"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=tree"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=tree"/></a></div>
+					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=tree"/></a></div>
 					  </div>
 					</div>
 					<!-- More photo slider  -->
 					<div class="span4">
 						<div class="row-fluid block-head-gray more-photo " >
-							<div class="span7 block-title-5">Diğer Resimler İçin</div>
-							<div class="span5 block-title-5 pull-right">
-								<div class="first"><li data-target="#testimonials"  id='first'></li></div>
-								<ol class="carousel-indicators ind">
-									<li data-target="#testimonials" data-slide-to="0" class='active' id="first-ind" ></li>
+							<div class="span6 block-title-5">Diğer Resimler İçin</div>
+							<div class="span6 block-title-5 pull-right">
+								<div class="first pull-left"><li class='active' id='first' data-slide="prev"></li></div>
+								<ol class="carousel-indicators ind pull-left">
+									<li data-target="#testimonials" data-slide-to="0" class='active' ></li>
 									<li data-target="#testimonials" data-slide-to="1"></li>
-									<li data-target="#testimonials" data-slide-to="2" id="last-ind"></li>
+									<li data-target="#testimonials" data-slide-to="2"></li>
 								</ol>
-								<div class="last"><li data-target="#testimonials" id='last'></li></div>
+								<div class="last pull-left"><li data-target="#testimonials" id='last' data-slide="next"></li></div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- End Photo Carousel  -->
 		<div class="row det-block">
 			<div class="span12 gray-border">
 				<div class="row">
@@ -170,12 +160,12 @@
 
 		<div class="row det-block ">
 			<div class="span12 decoration">
-				<div class="row">
-					<div class="span4"></div>
-					<div class="span4 det-block-title block-head-gray center">
+				<div class="row decoration-row">
+					<div class="span4 bit dir-left"></div>
+					<div class="span4 block-head-gray center">
 						<div class="det-title bold uppercase">Açıklama</div>
 					</div>
-					<div class="span4"></div>
+					<div class="span4 bit dir-right"></div>
 				</div>
 				<div class="row det-info">
 					<div class="span12 center bold">
@@ -187,12 +177,12 @@
 
 		<div class="row det-block">
 			<div class="span12 decoration">
-				<div class="row">
-					<div class="span4"></div>
-					<div class="span4 det-block-title block-head-gray center">
+				<div class="row decoration-row">
+					<div class="span4 bit dir-left"></div>
+					<div class="span4 block-head-gray center">
 						<div class="det-title bold uppercase">Güvenlik</div>
 					</div>
-					<div class="span4"></div>
+					<div class="span4 bit dir-right"></div>
 				</div>
 				<div class="row">
 					<div class="span12 det-info-check">
@@ -247,12 +237,12 @@
 		</div>
 		<div class="row det-block">
 			<div class="span12 decoration">
-				<div class="row">
-					<div class="span4"></div>
-					<div class="span4 det-block-title block-head-gray center">
+				<div class="row decoration-row">
+					<div class="span4 bit dir-left"></div>
+					<div class="span4 block-head-gray center">
 						<div class="det-title bold uppercase">İÇ DOMANIM</div>
 					</div>
-					<div class="span4"></div>
+					<div class="span4 bit dir-right"></div>
 				</div>
 				<div class="row">
 					<div class="span12 det-info-check">
@@ -307,12 +297,12 @@
 		</div>
 		<div class="row det-block">
 			<div class="span12 decoration">
-				<div class="row">
-					<div class="span4"></div>
-					<div class="span4 det-block-title block-head-gray center">
+				<div class="row decoration-row">
+					<div class="span4 bit dir-left"></div>
+					<div class="span4  block-head-gray center">
 						<div class="det-title bold uppercase">DİŞ DOMANIM</div>
 					</div>
-					<div class="span4"></div>
+					<div class="span4 bit dir-right"></div>
 				</div>
 				<div class="row">
 					<div class="span12 det-info-check">
@@ -367,12 +357,12 @@
 		</div>
 		<div class="row det-block">
 			<div class="span12 decoration">
-				<div class="row">
-					<div class="span4"></div>
-					<div class="span4 det-block-title block-head-gray center">
+				<div class="row decoration-row">
+					<div class="span4 bit dir-left"></div>
+					<div class="span4 block-head-gray center">
 						<div class="det-title bold uppercase">Multimedya</div>
 					</div>
-					<div class="span4"></div>
+					<div class="span4 bit dir-right"></div>
 				</div>
 				<div class="row">
 					<div class="span12 det-info-check">

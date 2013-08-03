@@ -17,6 +17,11 @@
 
   <a href="<?=$base_url;?>frontend/ad_show.php">ad show</a> <br/>
   <a href="<?=$base_url;?>frontend/ad_show_two.php">ad show 2</a> <br/>
+
+  <a href="<?=$base_url;?>frontend/all_ad.php">All Ad</a> <br/>
+
+  <a href="<?=$base_url;?>frontend/all_ad_search_results.php">Ad serach results</a> <br/>
+
   <hr>
 
   <a href="<?=$base_url;?>frontend/user/co_register.php">Company Register</a> <br/>
