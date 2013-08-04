@@ -20,7 +20,13 @@
 
   <a href="<?=$base_url;?>frontend/all_ad.php">All Ad</a> <br/>
 
+  <a href="<?=$base_url;?>frontend/all_ad_advance_search.php">Advance search block</a> <br/>
+
   <a href="<?=$base_url;?>frontend/all_ad_search_results.php">Ad serach results</a> <br/>
+
+  <a href="<?=$base_url;?>frontend/gallery.php">Gallery</a> <br/>
+
+  <a href="<?=$base_url;?>frontend/gallery_two.php">Gallery New Style</a> <br/>
 
   <hr>
 

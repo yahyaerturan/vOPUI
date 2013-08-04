@@ -1,31 +1,84 @@
 <?php include('components/page_head.php') ?>
 <div class="row home">
-	<?php include('components/head_section.php'); ?>
-	<div class="row">
-		<div class="span12">
-			<div class="row block-head">
-				<div class="span2"><div class="uppercase"><h4 class="black">DETAYLI ARAMA</h4></div></div>
-				<div class="span10">
-						<div class="row search-filter boder-left">
-							<div class="span2">
-								<label class="radio"><input type="radio" value="1" name="month">Tüm İlanlar</label>
-							</div>
-							<div class="span2">
-								<label class="radio"><input type="radio" value="1" name="month">Sahibinden</label>
-							</div>
-							<div class="span2">
-								<label class="radio"><input type="radio" value="1" name="month">Galeriden</label>
-							</div>
-							<div class="span3 pull-right">
-								<select >
-                  <option>Sıralama Seçiniz</option>
-                </select>
-							</div>
+	<div class="row-fluid home-section">
+    <div class="span3 ">
+      <div class="row right-border">
+      	<div class="span12">
+      		<div class="block-head uppercase"><h4 class="black">Galeri</h4></div>
+		      <div class="details-gallery">
+		      	<p class='co-logo'><img src="http://placehold.it/175x100"/></p>
+		        <p>
+		        	<h4 calss='uppercase'>Mar Otomotiv</h4>
+		        	<h4 calss='uppercase'>San. Tic.Ltd Şti.</h4>
+		        	<h4 calss='uppercase'>Murat Arabacı</h4>
+		        </p>
+		        <p>Eyüp Sahil Yolu</p>
+		        <p>No: 155 Eyüp istanbul</p>
+		        <p>Tel : 0212 654 65 65</p>
+		        <p>Fax : 0212 654 65 65</p>
+		        <p>otopazari.com/magroup.tr</p>
+		      </div>
+      	</div>
+      </div>
+      <div class="row right-border">
+      	<div class="span12">
+      		<div class="block-head uppercase"><h4 class="black">Vasıtalar</h4></div>
+		      <div class="details-gallery">
+		        <p>Eyüp Sahil Yolu</p>
+		        <p>No: 155 Eyüp istanbul</p>
+		        <p>Tel : 0212 654 65 65</p>
+		        <p>Fax : 0212 654 65 65</p>
+		        <p>otopazari.com/magroup.tr</p>
+		      </div>
+      	</div>
+      </div>
+      <div class="row right-border">
+      	<div class="span12">
+      		<div class="block-head uppercase"><h4 class="black">Hakkimizda</h4></div>
+		      <div class="details-gallery">
+		        <p>Eyüp Sahil Yolu</p>
+		        <p>No: 155 Eyüp istanbul</p>
+		        <p>Tel : 0212 654 65 65</p>
+		        <p>Fax : 0212 654 65 65</p>
+		        <p>otopazari.com/magroup.tr</p>
+		      </div>
+      	</div>
+      </div>
+    </div>
+    <div class="span9 main-section">
+    	<div class="row">
+    		<div class="span9 main-photo"><img src="<?=$base_url;?>assets/frontend/img/gallery-home.png"></div>
+		    <div class="span3 ad-spaces">
+		      <div class="row">
+		        <div class="span12"><img src="http://placehold.it/195x112"/></div>
+		      </div>
+		      <div class="row">
+		        <div class="span12"><img src="http://placehold.it/195x112"/></div>
+		      </div>
+		      <div class="row">
+		        <div class="span12"><img src="http://placehold.it/195x115"/></div>
+		      </div>
+		    </div>
+    	</div>
+    	<div class="row">
+    		<div class="span1"></div>
+				<div class="span11">
+					<div class="row search-filter">
+						<div class="span5">
+							<input type="text" class="reg-input input-mid">
+							<div class="submit-btn pull-right">
+		            <a href="#" class="devam-btn-blue">Galeride Ara</a>
+		          </div>
 						</div>
+						<div class="span3 pull-right">
+							<select class='pull-right'>
+                <option>Sıralama Seçiniz</option>
+              </select>
+						</div>
+					</div>
 				</div>
 			</div>
-			
-			<div class="row">
+    	<div class="row">
 			  <div class="span12">
 			    <div class="table-account table-ad table-ad-active">
 			    	<table class="table">
@@ -35,11 +88,11 @@
 									<th class="table-th">Marka</th>
 									<th class="table-th">Seri - Model</th>
 									<th class="table-th">İlan Başlığı</th>
-									<th class="table-th">Yıl</th>
-									<th class="table-th"> KM</th>
+									<th class="table-th"><a class="sort">Yıl<b class="caret"></b></a></th>
+									<th class="table-th"><a class="sort">KM<b class="caret"></b></a></th>
 									<th class="table-th">Renk</th>
 									<th class="table-th"><a class="sort" href="#">Fiyat</a></th>
-									<th class="table-th"><a class="sort" href="#"> İlan Tarihi</a></th>
+									<th class="table-th"><a class="sort" href="#">Tarih</a></th>
 									<th class="table-th">il / ilçe</th>	
 								</tr>
 							</thead>
@@ -118,34 +171,8 @@
 						</table>
 			    </div>
 			  </div>
-			</div>
-			<div class="row">
-				<div class="span12 ad-pagination">
-					<div class="pagination pagination-centered">
-						<ul>
-							<li><a href="#">&laquo;</a></li>
-							<li class="active"><a href="">1</a></li>
-							<li><a href="">2</a></li>
-							<li><a href="">3</a></li>
-							<li><a href="">4</a></li>
-							<li><a href="">5</a></li>
-							<li><a href="#">&raquo;</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="span3"></div>
-				<div class="span6">
-					<div class="save-search">
-						<h4>Favori Aramalarım</h4>
-						<p>Yukarıdaki lesteye yeni bir ilan eklendiğinde size e-post ile haber vermemizi ister misiniz?</p>
-						<div class="submit-btn pull-right"><a href="#" class='btn-yal'>Aramayı Kaydet</a></div>
-					</div>
-				</div>
-				<div class="span3"></div>
-			</div>
-		</div>
-	</div>
+    	</div>
+    </div>
+  </div>
 </div>
 <?php include('components/page_tail.php') ?>

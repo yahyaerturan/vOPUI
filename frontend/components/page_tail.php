@@ -51,9 +51,12 @@
     $(document).ready(function(){
         $('.fileupload').fileupload()
         $('.carousel').carousel({
-        pause: true,
-        interval: false,
-    });
+          pause: true,
+          interval: false,
+        });
+        $('#adv-select').collapse({
+          toggle: false
+        })
     $('.carousel').on('slid.bs.carousel', function () {
         var index = $(this).find('.item.active').index();
         var size =  $(this).find('.item').size()

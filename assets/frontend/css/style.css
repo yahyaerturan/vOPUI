@@ -215,6 +215,48 @@
     *width: auto !important;
   }
 }
+@media (max-width: 650px) {
+  .advance-search .gray-border select{ 
+    width: auto !important;
+    *width: auto !important;
+  }
+}
+@media (max-width: 650px) {
+  .search-filter select{ 
+    width: auto !important;
+    *width: auto !important;
+  }
+}
+@media (max-width: 650px) {
+  .search-filter input[type="text"]{ 
+    width: auto !important;
+    *width: auto !important;
+  }
+}
+@media (max-width: 650px) {
+  .advance-search .reg-input.input-mini{ 
+    width: auto !important;
+    *width: auto !important;
+  }
+}
+@media (max-width: 650px) {
+  .home-section .ad-spaces-home{ 
+    width: auto !important;
+    *width: auto !important;
+  }
+}
+@media (max-width: 650px) {
+  .home-section .ad-spaces{ 
+    width: auto !important;
+    *width: auto !important;
+  }
+}
+@media (max-width: 650px) {
+  .home-section .main-photo{ 
+    width: auto !important;
+    *width: auto !important;
+  }
+}
 /********* Button **********/
 .submit-btn{margin-top: 10px}
 .submit-btn .devam-btn-blue{
@@ -247,12 +289,36 @@
 }
 .block-head h4{
   margin: 0px;
-  padding: 5px;
-  padding-left: 10px;
-  padding-bottom: 0px;
+  padding: 3px 5px 1px 10px;
   margin-bottom: 0px;
   font-size: 16px;
 }
+.submit-btn-pay{margin-top: 10px}
+.submit-btn-pay .devam-btn-blue{
+    -moz-box-shadow:inset 0px 35px 0.5px -24px #63acf0;
+    -webkit-box-shadow:inset 0px 35px 0.5px -24px #63acf0;
+    box-shadow:inset 0px 35px 0.5px -24px #63acf0;
+    background-color:#4593e0;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #2e79ca;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:bold;
+    padding:4px 21px;
+    text-decoration:none;
+    
+}
+.submit-btn-pay .devam-btn-blue:hover {
+    
+    background-color:#63acf0;
+}
+.submit-btn-pay .devam-btn-blue:active {
+    position:relative;
+    top:1px;
+}
+
 /* !Blocks head style */
 
 .submit-btn .btn-yal{
@@ -292,6 +358,21 @@
   padding: 20px;
   margin-bottom:20px;
 }
+.dotted-bottom-border{
+  border-bottom: 1px #b9b9b9 dotted;
+}
+.right-border{
+  border-right: 1px #b9b9b9 solid;
+}
+.top-border{
+  border-top: 1px #b9b9b9 solid;
+}
+.bottom-border{
+  border-bottom: 1px #b9b9b9 solid;
+}
+.left-border{
+  border-left: 1px #b9b9b9 solid;
+}
 .block-head-gray{
   background: #f7f7f7; /* Old browsers */
   background: -moz-linear-gradient(top, #f7f7f7 0%, #cccccc 100%); /* FF3.6+ */
@@ -303,32 +384,6 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
 }
 
-
-.submit-btn-pay{margin-top: 10px}
-.submit-btn-pay .devam-btn-blue{
-    -moz-box-shadow:inset 0px 35px 0.5px -24px #63acf0;
-    -webkit-box-shadow:inset 0px 35px 0.5px -24px #63acf0;
-    box-shadow:inset 0px 35px 0.5px -24px #63acf0;
-    background-color:#4593e0;
-    -moz-border-radius:6px;
-    -webkit-border-radius:6px;
-    border-radius:6px;
-    border:1px solid #2e79ca;
-    color:#ffffff;
-    font-size:12px;
-    font-weight:bold;
-    padding:4px 21px;
-    text-decoration:none;
-    
-}
-.submit-btn-pay .devam-btn-blue:hover {
-    
-    background-color:#63acf0;
-}
-.submit-btn-pay .devam-btn-blue:active {
-    position:relative;
-    top:1px;
-}
 /* End default setting*/
 
 
@@ -1253,7 +1308,8 @@ add ad form
 .photo-add .submit-btn{margin-top: 0px}
 .photo-add .span11{margin-bottom: 15px}
 .photo-added .thumbnail{margin-bottom: 5px}
-.captch-txt{margin-top: 29px;}
+.captch-img{margin-top: 10px;margin-left: 20px !important;margin-bottom: 20px !important}
+.captch-txt{margin-top: 38px;}
 .captch-txt .control-label{width: 500px}
 .captch-txt .controls{margin-left: 0px!important}
 .adrs{margin-left: 30px}
@@ -1398,6 +1454,7 @@ add ad form
   background: url('../img/slider-more-l-end.png') no-repeat !important;
   height: 21px !important;
   width: 30px;
+  cursor: default;
 }
 
 .more-photo .last li{
@@ -1413,6 +1470,7 @@ add ad form
   background: url('../img/slider-more-r-end.png') no-repeat !important;
   height: 21px !important;
   width: 30px;
+  cursor: default;
 }
 /* End Photo Carousel */
 
@@ -1480,7 +1538,7 @@ add ad form
 /**** Home page style ****/
 .home .blue-border{padding: 10px 0 0;}
 .cat-list{
-  height: 264px;
+  height: 273px;
   overflow-x: hidden;
   overflow-y: visible;
 }
@@ -1490,11 +1548,15 @@ add ad form
 }
 .home .cat-list a{color: #2b2c88;font-weight: bold;}
 .home .row-fluid{margin-top: 20px}
-.home .head-section [class*="span"]{ margin-left: 1% ;}
-.home .head-section [class*="span"]:first-child{margin-left: 0px}
-.home .span12{margin-bottom: 13px;}
-.home .row-fluid .span2{width: 17.53%}
-.home .head-section img{ max-width: auto !important;}
+.home .home-section [class*="span"]{ margin-left: 1% ;}
+.home .home-section [class*="span"]:first-child{margin-left: 0px}
+.home-section .span12{margin-bottom: 13px;}
+.home-section {margin-bottom: 20px;}
+.home-section .ad-spaces-home{width: 16.20%}
+.home-section .ad-spaces{width: 21.6%}
+.home-section .main-section{width: 75.92%}
+.home-section .main-photo{width: 587px}
+.home .home-section img{ max-width: auto !important;}
 
 .home .thumbnail{
   padding: 0px;
@@ -1589,15 +1651,19 @@ add ad form
   padding-bottom: 2px;
   padding-left: 4px !important;
   padding-top: 2px;
+  width: 155px;
 }
 .search-filter input[type="text"]{
   height: 16px;
   padding-bottom: 2px;
   padding-left: 4px !important;
   padding-top: 2px;
+  width: 155px;
 }
 .search-filter .input-mid{width: 100px !important}
-.search-filter .submit-btn{margin-top: 3px}
+.search-filter .submit-btn{margin-top: 1px}
+.search-filter .search-cat{padding-left: 5px;font-weight: bold;}
+
 /* Pagination */
 .ad-pagination .pagination ul > li > a, .pagination ul > li > span{
   border: none;
@@ -1619,6 +1685,9 @@ add ad form
 .ad-pagination .pagination a:hover{
   color: #999999;
 }
+/* ENd Pagination */
+
+/* Save Advertisement*/
 .save-search
 {
   background: #ffffff; /* Old browsers */
@@ -1649,4 +1718,118 @@ add ad form
   color: #666;
   margin-bottom: -10px;
 }
+/* End Save Advertisement*/
+
+/* Advance Search*/
+.advance-search .gray-border
+{
+  padding: 10px !important
+}
+.advance-search .gray-border .block-head
+{
+  color: #2a2b88 !important;
+  margin-bottom: 10px
+}
+.advance-search .gray-border select
+{
+  width: 225px;
+}
+.advance-search .input-mini
+{
+  width: 94px;
+}
+.advance-search .gray-border p
+{
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.advance-search .span12
+{
+  margin-bottom: 5px
+}
+.advance-search .submit-btn
+{
+  margin-top: 0px
+}
+.advance-search .accordion-group
+{
+  border: none;
+  border-bottom: 1px dotted #B9B9B9;
+}
+.advance-search .accordion-heading .accordion-toggle
+{
+  padding-left: 0px;
+  color: #000 !important;
+}
+.accordion-heading .collapsed i
+{
+  background-image: url("../../bootstrap/img/glyphicons-halflings.png");
+  background-position: -313px -119px;
+  vertical-align: text-top;
+  height: 14px;
+  width: 14px;
+  display: inline-block;
+  float: right;
+  margin-top: 5px;
+}
+.accordion-heading i
+{
+  background-image: url("../../bootstrap/img/glyphicons-halflings.png");
+  background-position: -288px -120px;
+  vertical-align: text-top;
+  height: 14px;
+  width: 14px;
+  display: inline-block;
+  float: right;
+  margin-top: 5px;
+}
+.advance-search .accordion-heading a:hover, a:focus
+{
+  text-decoration: none;
+}
+.advance-search .checkbox{vertical-align: middle; margin-top: -1px}
+/* End Advance Search*/
 /* End Advertisement Table */
+
+
+/* Gallery */
+.details-gallery
+{
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.details-gallery .co-logo
+{
+  margin-left: -10px;
+  text-align: center;
+  display: block;
+}
+.home-section .block-title
+{
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: 10px
+}
+.bank-taksit .gray-border
+{
+  border-width: 1px;
+  margin:0 8px 10px;
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+.bank-taksit .taksit
+{
+  margin-top: 14px;
+  font-size: 18px
+}
+.home-section .brand
+{
+  margin-bottom: 20px;
+  margin-left: 35px;
+}
+.home-section .ad-details
+{
+  margin: 20px 0
+}

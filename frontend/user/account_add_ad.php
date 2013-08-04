@@ -775,39 +775,39 @@
   <div class="row-fluid photo-added">
     <ul class="thumbnails">
       <li class="span2">
-        <a class="thumbnail" href="#"><img alt="" src="http://localhost/otopazari/assets/frontend/img/car-photo.png"></a>
-        <a href="#"><img alt="" src="http://localhost/otopazari/assets/frontend/img/home-photo.png"></a>
-        <a href="#"><img alt="" src="http://localhost/otopazari/assets/frontend/img/del-photo.png" class="pull-right"></a>
+        <a class="thumbnail" href="#"><img alt="" src="<?=$base_url;?>assets/frontend/img/car-photo.png"></a>
+        <a href="#"><img alt="" src="<?=$base_url;?>assets/frontend/img/home-photo.png"></a>
+        <a href="#"><img alt="" src="<?=$base_url;?>assets/frontend/img/del-photo.png" class="pull-right"></a>
       </li>
       <li class="span2">
-        <a class="thumbnail" href="#"><img alt="" src="http://localhost/otopazari/assets/frontend/img/empty-photo.png"></a>
-        <a href="#"><img alt="" src="http://localhost/otopazari/assets/frontend/img/del-photo.png" class="pull-right"></a>
+        <a class="thumbnail" href="#"><img alt="" src="<?=$base_url;?>assets/frontend/img/empty-photo.png"></a>
+        <a href="#"><img alt="" src="<?=$base_url;?>assets/frontend/img/del-photo.png" class="pull-right"></a>
       </li>
       <li class="span2">
-        <a class="thumbnail" href="#"><img alt="" src="http://localhost/otopazari/assets/frontend/img/empty-photo.png"></a>
-        <a href="#"><img alt="" src="http://localhost/otopazari/assets/frontend/img/del-photo.png" class="pull-right"></a>
+        <a class="thumbnail" href="#"><img alt="" src="<?=$base_url;?>assets/frontend/img/empty-photo.png"></a>
+        <a href="#"><img alt="" src="<?=$base_url;?>assets/frontend/img/del-photo.png" class="pull-right"></a>
       </li>
       <li class="span2">
-        <a class="thumbnail" href="#"><img alt="" src="http://localhost/otopazari/assets/frontend/img/empty-photo.png"></a>
-        <a href="#"><img alt="" src="http://localhost/otopazari/assets/frontend/img/del-photo.png" class="pull-right"></a>
+        <a class="thumbnail" href="#"><img alt="" src="<?=$base_url;?>assets/frontend/img/empty-photo.png"></a>
+        <a href="#"><img alt="" src="<?=$base_url;?>assets/frontend/img/del-photo.png" class="pull-right"></a>
       </li>
       <li class="span2">
-        <a class="thumbnail" href="#"><img alt="" src="http://localhost/otopazari/assets/frontend/img/empty-photo.png"></a>
-        <a href="#"><img alt="" src="http://localhost/otopazari/assets/frontend/img/del-photo.png" class="pull-right"></a>
+        <a class="thumbnail" href="#"><img alt="" src="<?=$base_url;?>assets/frontend/img/empty-photo.png"></a>
+        <a href="#"><img alt="" src="<?=$base_url;?>assets/frontend/img/del-photo.png" class="pull-right"></a>
       </li>
       <li class="span2">
-        <a class="thumbnail" href="#"><img alt="" src="http://localhost/otopazari/assets/frontend/img/empty-photo.png"></a>
-        <a href="#"><img alt="" src="http://localhost/otopazari/assets/frontend/img/del-photo.png" class="pull-right"></a>
+        <a class="thumbnail" href="#"><img alt="" src="<?=$base_url;?>assets/frontend/img/empty-photo.png"></a>
+        <a href="#"><img alt="" src="<?=$base_url;?>assets/frontend/img/del-photo.png" class="pull-right"></a>
       </li>
     </ul>    
   </div>
   <!-- Captcha section -->
   <div class="row-fluid blue-border">
-    <div class="span2">
+    <div class="span2 captch-img">
       <p class='bold'>Güvenlik Kodu </p>
-      <img alt="" src="http://localhost/otopazari/assets/frontend/img/kodu.png">
+      <img alt="" src="<?=$base_url;?>assets/frontend/img/kodu.png">
     </div>
-    <div class="span4 captch-txt">
+    <div class="span5 captch-txt">
       <div class="control-group">
         <label class="control-label" for="captcha">Lütfen sağdaki harfleri aşağıdaki kutuya yazınız</label>
         <div class="controls">
