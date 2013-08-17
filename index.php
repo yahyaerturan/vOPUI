@@ -28,6 +28,8 @@
 
   <a href="<?=$base_url;?>frontend/gallery_two.php">Gallery New Style</a> <br/>
 
+  <a href="<?=$base_url;?>frontend/news.php">Car News</a> <br/>
+
   <hr>
 
   <a href="<?=$base_url;?>frontend/user/co_register.php">Company Register</a> <br/>

@@ -1833,3 +1833,227 @@ add ad form
 {
   margin: 20px 0
 }
+
+
+/**** News page ***/
+.news-page
+{
+  margin-top: 10px
+}
+.news-list-head li
+{
+  list-style: square;
+}
+.list-news .img
+{
+  width: 150px;
+  height : 100px;
+  float: left;
+  margin-right: 15px
+}
+.list-news .thumbnail
+{
+  border: 3px solid #aaa;
+  padding: 0px
+}
+.list-news h5.title
+{
+  float: left;
+  width: 155px;
+  margin-top: 0px;
+  margin-bottom: 3px;
+  color: #666666;
+}
+.list-news h5.title a
+{
+  color: #666666;
+  text-decoration: none;
+}
+.list-news h5.title a:hover
+{
+  color: #333;
+}
+.list-news p.shortcut
+{
+  float: left;
+  width: 155px;
+  color: #333;
+}
+
+
+/* New Model list*/
+.new-model .title
+{
+  width: 100%;
+  border-bottom: 5px #a80500 solid;
+  float: left;
+  margin-bottom: 20px;
+}
+.new-model .title h3
+{
+  width: auto;
+  background: #a80500;
+  color: #fff;
+  margin-bottom: 0px;
+  margin-top: 0;
+  float: left;
+  padding: 0 10px;
+  font-size: 16px;
+}
+.new-model-txt
+{
+  padding-right: 26px;
+  margin-top: 7px;
+  color: #666;
+  font-size: 13px;
+  font-weight: bold;
+}
+.new-model-list{}
+.new-model-list li
+{
+  list-style: url('../img/arrow.png');
+  line-height: 2.4em;
+  border-bottom: 1px #aaa dotted;
+}
+.new-model-list li a 
+{
+  color: #333;
+}
+.new-model-list li.all {border-bottom: none;font-size: 10px;margin-top: 20px;list-style: url('../img/arrow2.png');}
+.new-model-list li.all a{color: #aaa}
+.new-model-link a{
+  color: #666;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 10px;
+  line-height: 1.6em;
+}
+
+/* New Campaigns list*/
+.new-campaigns .title
+{
+  width: 100%;
+  border-bottom: 5px #262626 solid;
+  float: left;
+  margin-bottom: 20px;
+}
+.new-campaigns .title h3
+{
+  width: auto;
+  background: #262626;
+  color: #fff;
+  margin-bottom: 0px;
+  margin-top: 0;
+  float: left;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+
+/* Special Block */
+.special-block .title
+{
+  background: #666666;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px;
+  -webkit-box-shadow: inset 0px 10px 10px 1px #333;
+  box-shadow: inset 0px 10px 10px 1px #333;
+  border-bottom: 10px #000 solid;
+}
+.special-block .cont
+{
+  background: #000 url('../img/race-flag.png') no-repeat;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+  float: left;
+}
+.special-block .cont .img{float: left;margin-bottom: 15px}
+.special-block .cont .thumbnail
+{
+  color:  #fff;
+  border-width: 3px;
+  padding: 0px;
+}
+.special-block .cont .txt
+{
+  float: left;
+  color: #fff;
+  padding-left: 9px;
+  width: 165px;
+}
+.special-block .cont .txt a
+{
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+}
+/* ad section */
+.ad .block-title
+{
+  border: 1px #ccc solid;
+  padding:8px 5px;
+  border-bottom: none;
+}
+.ad .block
+{
+  border: 1px #ccc solid;
+  padding:8px 5px;
+}
+
+
+/* Most Read */
+.most-read{margin-bottom: 0px}
+.most-read .cont{
+  padding-left: 5px;
+  background: #dbdbdb;
+  float: left;
+}
+.most-read .title{
+  background: #0066cc;
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 5px 10px;
+}
+.most-read .img
+{
+  float: left;
+  padding: 0px;
+}
+.most-read .txt
+{
+  float: left;
+  padding: 0 7px;
+  width: 177px;
+}
+.most-read .item
+{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  float: left;
+}
+.most-read .item .title
+{
+  background: #efefef;
+  width: 100%;
+  color: #666;
+  padding: 0px;
+  padding-left: 7px;
+  margin-bottom: 3px;
+}
+.most-read .item a 
+{
+  color: #000000;
+  float: left;
+  margin-bottom: 8px;
+  width: 100%;
+}
+.most-read .item .hit
+{
+  font-size: 10px;
+  color: #999;
+}
+.most-comm .title{background: #003e6f;}
+.most-comm{margin-bottom: 20px}
