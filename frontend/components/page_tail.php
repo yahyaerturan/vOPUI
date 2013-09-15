@@ -49,28 +49,29 @@
 <script src="<?=$base_url;?>assets/bootstrap/js/bootstrap-fileupload.js"></script>
 <script>
     $(document).ready(function(){
-        $('.fileupload').fileupload()
-        $('.carousel').carousel({
-          pause: true,
-          interval: false,
-        });
-        $('#adv-select').collapse({
-          toggle: false
-        })
-    $('.carousel').on('slid.bs.carousel', function () {
+      $('.fileupload').fileupload()
+      $('.carousel').carousel({
+        interval: false,
+      });
+
+      $('#first').addClass('active');
+      $('#last').removeClass('active');
+      $('.carousel-custom').on('slid.bs.carousel-custom', function () {
         var index = $(this).find('.item.active').index();
-        var size =  $(this).find('.item').size()
+        var size =  $(this).find('.item').size()-1;
         if(index == 0)
         {
           $('#first').addClass('active');
           $('#last').removeClass('active');
           $('#first').removeAttr('data-target');
+          $("#last").attr("data-target","#testimonials");
         }
-        else if(index == size-1)
+        else if(index == size)
         {
           $('#last').addClass('active');
           $('#first').removeClass('active');
           $('#last').removeAttr('data-target');
+          $("#first").attr("data-target","#testimonials");
         }
         else {
           $('#last').removeClass('active');
@@ -78,9 +79,27 @@
           $("#first").attr("data-target","#testimonials");
           $("#last").attr("data-target","#testimonials");
         }
+      });
+      $('#details_acc').collapse({
+        toggle: false
+      });
+      $('#One').collapse({
+        toggle: true
+      })
+    });
+    $( ".pay" ).on( "click", function(){
+      var val = $( ".pay:checked" ).val();
+      $( '.credit-card' ).css('display', 'none');
+      $( '.transfer' ).css('display', 'none');
+      $( '.mobile-pay' ).css('display', 'none');
+      if(val == 0)
+        $( '.credit-card' ).css('display', 'inline');
+      else if(val == 1)
+        $( '.transfer' ).css('display', 'inline');
+      else if(val == 2)
+        $( '.mobile-pay' ).css('display', 'inline');
+    });
 
-    });
-    });
 </script>
 </body>
 </html>

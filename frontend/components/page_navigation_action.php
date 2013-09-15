@@ -2,12 +2,10 @@
 <div class="row page-breadcrumb">
 	<!-- account Page -->
 	<div class="span9">
-      <div>
+      <div class='breadcrumb-tree pull-left'>
         <ul class="breadcrumb tree pull-left">
           <li><a href="#">Vasıta</a></li>
-          <li class="divider">&nbsp;</li>
           <li><a href="#">Otomobil</a></li>
-          <li class="divider">&nbsp;</li>
           <li class="active">Opel</li>
         </ul>
       </div>

@@ -67,7 +67,7 @@
 		<!-- Photo Carousel  -->
 		<div class="row-fluid">
 			<div class="span12">
-				<div class="row-fluid carousel" id="testimonials">
+				<div class="row-fluid carousel carousel-custom" id="testimonials">
 					<div class="span8 slide carousel-inner">
 					  <div class="row small-photo item active">
 					  	<div class="span1"><a href="#" class='thumbnail'><img src="http://placehold.it/170x150&text=one"/></a></div>

@@ -15,7 +15,7 @@
 .row{margin-left: 0px}
 .header{ 
   padding: 12px 0 0 0 ;
-  border-bottom: 5px #cecece solid ;
+  border-bottom: 2px #cecece solid ;
   margin-bottom: 0px;
 }
 .uppercase{text-transform: uppercase !important;}
@@ -641,7 +641,7 @@ footer .copyright p{color: #fff;margin-right: 10px;font-weight: bold;padding-top
   font-weight: normal;
 }
 
-.reg .span9{border-left: 5px #cecece solid;width: 742px ;padding: 20px;margin-bottom: 50px}
+.reg .span9{border-left: 2px #cecece solid;width: 742px ;padding: 20px;margin-bottom: 50px}
 
 
 /* Registration form*/
@@ -1356,7 +1356,8 @@ add ad form
 .ad-details .small-photo .thumbnail{padding: 0px;}
 .ad-details .det-block-title{margin-top: -15px}
 .ad-details .det-title{
-  padding: 4px 5px 0; 
+  padding: 6px 5px 3px; 
+  margin: 0 50px
 }
 .det-info{
   padding-left: 10px;
@@ -1366,6 +1367,7 @@ add ad form
 .det-block .span3{width:17.077% !important }
 .det-block .span7{width:51.265% !important }
 .det-block .span2{width:26.53% !important }
+.det-block .span5{width:33.265% !important }
 .det-block .contact-action{
   margin-top: 60px;
 }
@@ -1406,6 +1408,8 @@ add ad form
 }
 .det-block .decoration .decoration-row{
   margin-top: -15px;
+  margin-right: -2px;
+  cursor: pointer;
 }
 
 .det-block .decoration .bit{
@@ -1419,9 +1423,26 @@ add ad form
 }
 .det-info-check{margin-top: 10px}
 .det-info-check .checked{
-  padding-left: 10px;
+  background: url("../img/check.png") no-repeat;
+  background-position: 0px 0;
+  height: 18px;
+  padding-bottom: 3px;
+  padding-left: 25px;
+}
+.det-info-check .notcheck{
+  background: url("../img/check.png") no-repeat;
+  background-position: 0 -18px;
+  height: 18px;
+  padding-bottom: 3px;
+    padding-left: 25px;
 }
 .det-info-check .first{margin-left: 25px !important}
+.accordion-group
+{
+  border:none;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
 /* End Block Decoration */
 
 
@@ -1435,10 +1456,12 @@ add ad form
 .more-photo .ind li{
   background: url('../img/page-ind.png') no-repeat ;
   height: 21px !important;
+  cursor: pointer;
 }
 .more-photo .ind .active{
   background: url('../img/page-ind-active.png') no-repeat;
-  height: 21px !important
+  height: 21px !important;
+  cursor: auto;
 }
 
 .more-photo .first li{
@@ -1471,6 +1494,21 @@ add ad form
   height: 21px !important;
   width: 30px;
   cursor: default;
+}
+.more-photo-home
+{
+  margin-bottom: 2px;
+  margin-top: 4px;
+}
+.head-carousel .carousel-indicators .head-indicator
+{
+  cursor: pointer;
+  margin-bottom: 10px;
+  float: left;
+}
+.head-carousel .carousel-indicators .active
+{
+  cursor: auto;
 }
 /* End Photo Carousel */
 
@@ -1550,9 +1588,10 @@ add ad form
 .home .row-fluid{margin-top: 20px}
 .home .home-section [class*="span"]{ margin-left: 1% ;}
 .home .home-section [class*="span"]:first-child{margin-left: 0px}
+.ho,e .head-carousel .span9{width: 75.9219%}
 .home-section .span12{margin-bottom: 13px;}
 .home-section {margin-bottom: 20px;}
-.home-section .ad-spaces-home{width: 16.20%}
+.home-section .ad-spaces-home{width: 18.20%;margin-top: -15px;  }
 .home-section .ad-spaces{width: 21.6%}
 .home-section .main-section{width: 75.92%}
 .home-section .main-photo{width: 587px}
@@ -1581,42 +1620,47 @@ add ad form
 }
 
 /* Home breadcrumb */
+.page-breadcrumb
+{
+  background: #fff;
+  position: relative;
+  top: -11px;
+}
 .page-breadcrumb .tree {
-  background: #fff !important;
-  height: 19px;
+  height: 20px;
   color: #000;
   border-radius: 0px;
   margin-top:10px; 
   padding: 0px;
+  background: #ccc;
 }
 .page-breadcrumb .tree li{
   color: #000;
   text-shadow:none;
   background: #cecece !important;
-  padding: 0px 15px
+  padding: 0px 15px;
+  background-color: #999999;
+  background: #cecece url('../img/tree-divider.png') no-repeat  100% 0 !important;
+  padding-right: 22px;
 }
 .page-breadcrumb .tree a{
   color: #000;
 }
-.page-breadcrumb .tree .divider{
-  background: url('../img/tree-divider.png') no-repeat !important;
-  width: 13px;
-  height: 19px;
-  padding: 0px !important;
-  margin: 0px -4px !important;
-  height: 20px;
-}
 .page-breadcrumb .tree li.active{
   padding-right: 24px;
   background: #cecece url('../img/tree-end.png') no-repeat  100% 0 !important;
-  margin-right: 3px;
-} 
 
+} 
+.breadcrumb-tree
+{
+  padding-right: 5px;
+  background: #fff;
+}
 /* Advetısment action */
 
 .page-breadcrumb .line
 {
-  border-top: 5px solid #CECECE !important;
+  border-top: 3px solid #CECECE !important;
   top: 100px;
   margin-top: 18px;
 }
@@ -2057,3 +2101,22 @@ add ad form
 }
 .most-comm .title{background: #003e6f;}
 .most-comm{margin-bottom: 20px}
+
+/* Pay Block */
+.credit-card
+{
+  display: none;
+}
+.credit-card .title,.transfer .title
+{
+  margin-bottom: 0px;
+}
+.transfer
+{
+  display: none;
+}
+.mobile-pay
+{
+  display: none;
+}
+/* !Pay Block */

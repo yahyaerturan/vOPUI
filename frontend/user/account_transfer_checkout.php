@@ -1,7 +1,7 @@
 <?php include('../components/page_head.php'); ?>
 <?php $nav_title = "Reklam ödemesi havale bölümü"; ?>
 <?php include('../components/account_chechout_nav.php'); ?>
-<div class="row-fluid chechout reg">
+<div class="row-fluid chechout">
   <div class="row"><div class="span3 block-head"><h4>Seçtiğiniz Reklam Paletleri</h4></div></div>
     <div class="row">
       <div class="span12 full-width bill-list">
